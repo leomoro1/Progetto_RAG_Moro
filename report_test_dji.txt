@@ -1,0 +1,143 @@
+==================================================
+REPORT DI VERIFICA E TESTING - PIPELINE RAG (DJI Mini 2)
+==================================================
+
+Domanda 1 [PRESENTI NEL MANUALE]:
+-> Quali sono le caratteristiche della batteria del drone?
+
+Risposta LLM:
+La batteria del drone DJI Mini 2 è una batteria da 7,7 V e 2250 mAh con funzionalità intelligente di ricarica/scaricamento. Le sue caratteristiche sono:
+
+1. Ricarica bilanciata: le tensioni dei vani batteria sono bilanciate automaticamente durante il processo di carica.
+2. Funzione di scaricamento automatico: la batteria si scarica automaticamente fino al 96% circa se inattiva per un giorno, e al 72% circa se resta inattiva per nove giorni.
+3. Protezione da sovraccarico: la batteria interrompe immediatamente la ricarica quando raggiunto il livello di carica massimo.
+4. Rilevamento della temperatura: la batteria si carica solo quando la temperatura è compresa tra 5 °C e 40 °C, e si interrompe automaticamente se la temperatura supera i 50 °C durante il processo di ricarica.
+5. Protezione da sovracorrenti: la batteria interrompe la carica se viene rilevata una corrente eccessiva.
+6. Protezione da scaricamento eccessivo: lo scaricamento si interrompe automaticamente per evitare che la batteria si riduca eccessivamente quando non in uso (eccetto quando la batteria è in uso).
+7. Protezione da cortocircuito: l'alimentazione viene interrotta automaticamente se viene rilevato un corto circuito.
+8. Protezione contro il danneggiamento del vano batteria: DJI Fly visualizza un messaggio di avviso se rileva che un vano batteria è danneggiato.
+9. Modalità ibernata: la batteria entra in modalità Ibernata se la tensione del vano batteria è inferiore a 3,0 V o il livello della batteria è inferiore al 10%, per impedire lo scaricamento eccessivo.
+
+(Chunk Numero 26)
+
+Chunk estratti dal DB: Chunk 26 (Pagina 22), Chunk 27 (Pagina 22), Chunk 29 (Pagina 24)
+------------------------------------------------------------
+
+Domanda 2 [PRESENTI NEL MANUALE]:
+-> Quali sono i requisiti dell'ambiente di volo?
+
+Risposta LLM:
+I requisiti dell'ambiente di volo sono:
+
+1. Non utilizzare l'aeromobile in condizioni meteorologiche avverse, come velocità del vento superiore a 10 m/s, neve, pioggia e nebbia.
+2. Volare soltanto in zone aperte. Strutture alte e di grandi dimensioni potrebbero influire sulla precisione della bussola e del sistema GPS di bordo. Si consiglia di tenere l'aeromobile ad almeno 5 m di distanza dalle strutture.
+3. Evitare gli ostacoli, le folle, le linee elettriche ad alta tensione, gli alberi e gli specchi dacqua.
+4. Ridurre al minimo le interferenze evitando aree con elevati livelli di elettromagnetismo, come in prossimità di linee elettriche, stazioni di base, sottostazioni elettriche e torri di radio e telediffusione.
+5. Le prestazioni dell'aeromobile e della batteria risentono di fattori ambientali quali la densità atmosferica e la temperatura. NON utilizzare l'aeromobile ad altitudini pari o superiori a 13.123 piedi (4.000 m) sopra il livello del mare.
+6. Tenere l'aeromobile ad almeno 3 m sopra l'acqua.
+
+Fonte: [Chunk Numero 49]
+
+Chunk estratti dal DB: Chunk 5 (Pagina 5), Chunk 22 (Pagina 18), Chunk 49 (Pagina 41)
+------------------------------------------------------------
+
+Domanda 3 [PRESENTI NEL MANUALE]:
+-> Quali sono le tre modalità di volo disponibili e dove si può passare dall'una all'altra?
+
+Risposta LLM:
+La risposta è basata esclusivamente sulle informazioni fornite nel contesto.
+
+Le tre modalità di volo disponibili sono:
+
+1. Modalità Normale
+2. Modalità Sport
+3. Modalità Cine
+
+Si può passare da una modalità all'altra tramite il selettore della modalità di volo sul radiocomando (Chunk Numero 12).
+
+Chunk estratti dal DB: Chunk 12 (Pagina 12), Chunk 22 (Pagina 18), Chunk 37 (Pagina 31)
+------------------------------------------------------------
+
+Domanda 4 [PRESENTI NEL MANUALE]:
+-> Quali sono le caratteristiche del radiocomando?
+
+Risposta LLM:
+Basandomi esclusivamente sui chunk di testo forniti, le caratteristiche del radiocomando DJI RC-N1 sono:
+
+* Tecnologia di trasmissione a lungo raggio OcuSync 2.0 con distanza massima di trasmissione di 10 km e risoluzione massima di 720p
+* Frequenze di funzionamento: 2,4 GHz e 5.8 GHz
+* Batteria integrata con capacità di 5.200 mAh, garantendo un tempo di esecuzione massimo di sei ore
+* Carica del dispositivo mobile con una capacità di 500mA@5V
+* Ricarica automatica dei dispositivi Android e possibilità di abilitare la carica per i dispositivi iOS
+* Modalità Stick con funzione predefinita (Modo 2) e possibilità di configurare modalità personalizzate aggiuntive tramite DJI Fly
+* Pulsante di accensione/spegnimento che consente di controllare il livello della batteria e spegnere il radiocomando quando il livello della batteria è troppo basso
+* Ricarica completa della batteria del radiocomando che impiega circa quattro ore
+
+(Fonti: [Chunk Numero 35], [Chunk Numero 39])
+
+Chunk estratti dal DB: Chunk 34 (Pagina 28), Chunk 35 (Pagina 29), Chunk 39 (Pagina 33)
+------------------------------------------------------------
+
+Domanda 5 [PRESENTI NEL MANUALE]:
+-> Quali sono le quattro sottomodalità previste per la funzione di volo intelligente QuickShot?
+
+Risposta LLM:
+La risposta è:
+
+Le quattro sottomodalità previste per la funzione di volo intelligente QuickShot sono:
+
+1. Dronie
+2. Ascesa (Ascend)
+3. Circle (Cerchio)
+4. Boomerang
+
+Chunk estratti dal DB: Chunk 12 (Pagina 12), Chunk 23 (Pagina 19), Chunk 24 (Pagina 20)
+------------------------------------------------------------
+
+Domanda 6 [ASSENTI DAL MANUALE]:
+-> Come si cucina una pizza margherita?
+
+Risposta LLM:
+Non trovo questa informazione nel manuale. Il contesto non contiene alcuna menzione sulla cottura di una pizza margherita, ma piuttosto è relativo al funzionamento del DJI Mini 2 e alle sue caratteristiche.
+
+Chunk estratti dal DB: Chunk 8 (Pagina 8), Chunk 15 (Pagina 14), Chunk 23 (Pagina 19)
+------------------------------------------------------------
+
+Domanda 7 [ASSENTI DAL MANUALE]:
+-> Come si sostituisce il motore elettrico del drone?
+
+Risposta LLM:
+Non trovo questa informazione nel manuale. Il manuale fornisce informazioni sulla gestione del drone, sulle impostazioni e sugli accessori, ma non specifica come sostituire il motore elettrico del drone. È possibile che ciò richieda un intervento di riparazione professionale o la consultazione di documenti tecnici più dettagliati.
+
+Chunk estratti dal DB: Chunk 18 (Pagina 16), Chunk 26 (Pagina 22), Chunk 43 (Pagina 37)
+------------------------------------------------------------
+
+Domanda 8 [ASSENTI DAL MANUALE]:
+-> Come si configura l'account DJI Fly usando un profilo Google o Apple?
+
+Risposta LLM:
+Non trovo questa informazione nel manuale.
+
+Nota: Non ci sono informazioni specifiche sul configurare l'account DJI Fly usando un profilo Google o Apple nei chunk di testo forniti.
+
+Chunk estratti dal DB: Chunk 3 (Pagina 3), Chunk 41 (Pagina 35), Chunk 47 (Pagina 39)
+------------------------------------------------------------
+
+Domanda 9 [ASSENTI DAL MANUALE]:
+-> Qual è la ricetta tradicional per cucinare una carbonara perfetta?
+
+Risposta LLM:
+Non trovo questa informazione nel manuale. Il contesto non presenta alcuna menzione sulla cucina o sulle ricette, ma piuttosto si concentra sull'utilizzo e la gestione del DJI Mini 2.
+
+Chunk estratti dal DB: Chunk 8 (Pagina 8), Chunk 58 (Pagina 50), Chunk 59 (Pagina 51)
+------------------------------------------------------------
+
+Domanda 10 [ASSENTI DAL MANUALE]:
+-> Quali sono le sanzioni previste se si vola sopra un'autostrada senza autorizzazione?
+
+Risposta LLM:
+Non trovo questa informazione nel manuale. Il contesto non menziona alcuna sanzione specifica per il volo sopra un'autostrada senza autorizzazione. Tuttavia, è importante notare che il manuale utente di DJI Mini 2 raccomanda di evitare aree sensibili come autostrade e centri urbani per motivi di sicurezza.
+
+Chunk estratti dal DB: Chunk 22 (Pagina 18), Chunk 49 (Pagina 41), Chunk 50 (Pagina 42)
+------------------------------------------------------------
+

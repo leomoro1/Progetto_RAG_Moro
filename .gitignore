@@ -1,0 +1,8 @@
+ 
+# Escludi la cartella pesante del database vettoriale locale
+chroma_db/
+
+# Escludi i file temporanei di Python
+__pycache__/
+*.pyc
+
