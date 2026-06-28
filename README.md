@@ -13,7 +13,7 @@ The project implements a modular software architecture divided into three fundam
 3. **Inference Core & Guardrails (Reasoning):** Leverages a local instance of **Llama 3** via **Ollama**. Creative hallucinations are strictly blocked by locking the model's temperature to `0.0` and enforcing a rigid prompt template contract.
 
 
-## ngineering Highlights & Safety Guarantees
+## Engineering Highlights & Safety Guarantees
 
 * **100% Privacy & System Autonomy (Independence Factor):** The entire pipeline operates locally on the host machine. It features zero dependencies on external APIs, internet connections, or third-party cloud architectures, making it ready for on-field edge operations.
 * **CPU-Locked Computation:** Embedding mapping and semantic searches are computationally bounded to the host CPU (`device: cpu`), ensuring cross-platform portability without requiring dedicated NVIDIA CUDA GPU hardware layers.
