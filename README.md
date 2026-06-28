@@ -32,7 +32,6 @@ Progetto_RAG_Moro/
 ├── test_pipeline.py         # Automated testing harness evaluating 10 benchmark queries
 ├── report_test_dji.txt      # Automated output testing ledger and audit trail
 ├── documentazione_URBAN.pdf # Academic project documentation and thesis
-├── Presentazione.pptx       # Academic defense slide deck
 └── .gitignore               # Version control exclusion rules (Cache, DB, logs)
 
 ```
